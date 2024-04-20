@@ -1,0 +1,6 @@
+msgpack-python
+pwntools
+pyjarm
+pyopenssl
+scapy
+tabulate
