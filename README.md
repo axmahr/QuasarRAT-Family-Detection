@@ -42,7 +42,7 @@ options:
 Let's grab an IP and port from an exposed QuasarRAT server using [Censys](https://search.censys.io) by searching for `services.software.product:"Quasar"`.
 I got exemplarily `159.100.13[.]218:1606`.
 ```
-axel@malware-analysis:~/lab/detection_tool/QuasarRAT-Family-Detector$ sudo ./quasar_family_detector.py tun0 159.100.13.218 1606
+sudo ./quasar_family_detector.py tun0 159.100.13.218 1606
 [sudo] password for axel: 
 +-------------------------+----------------------------------------------------------------+-----------------------------------+--------------+
 | Indicator               | Value                                                          | Inference                         | Confidence   |
